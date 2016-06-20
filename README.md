@@ -40,6 +40,12 @@ webpack --minimize
 npm start
 ```
 
+or
+
+```
+npm start dev
+```
+
 this will start bundle the project using webpack and starts the server at 8080. Now browse to:
 
 ```
@@ -54,4 +60,10 @@ webpack --minimize
 npm start
 ```
 
-thats it! Refer to `dev.sh` and `prod.sh` for the same!
+or
+
+```
+npm start prod
+```
+
+thats it!

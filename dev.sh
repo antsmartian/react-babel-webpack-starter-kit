@@ -1,2 +1,0 @@
-webpack --minimize
-npm start

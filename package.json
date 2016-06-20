@@ -4,7 +4,8 @@
   "description": "An simple React-Babel-Webpack starter kit",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --minimize && npm start",
+    "prod": "export NODE_ENV='PROD' && webpack --minimize && npm start"
   },
   "keywords": [
     "React",
